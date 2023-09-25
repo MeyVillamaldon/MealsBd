@@ -1,0 +1,130 @@
+*{
+    width:  600px;
+    margin: 0 auto;
+   
+
+}
+
+
+
+.container{
+display:flex;
+flex-direction: column;
+text-align: center;
+font-size: 15px;
+font-family: system-ui;
+    border-radius: 25%;
+    margin-top: 25px;
+    height: 300px;
+    color: rgb(252, 221, 221);
+}
+
+.result{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    font-family: system-ui;
+    background: rgb(254,254,254);
+    background: radial-gradient(circle, rgba(254,254,254,1) 0%, rgb(234, 227, 192) 100%);
+    width: 750px;
+
+
+}
+h1{ 
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    background:none;
+}
+.imagen{
+    height: 90px;
+    width:  90px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 15px;
+    border-radius: 25%;
+    background:none;
+
+}
+input{
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 15px;
+    background:#fff;
+}
+button{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #212529;
+    background: #212529;
+  }
+  button:hover {
+    background: #fff;
+    color: #212529
+  }
+
+  h2{
+    padding: 20px;
+background:none;
+text-decoration:underline;
+
+  }
+
+  h3{
+    padding: 20px;
+    background:none;
+    text-align: justify
+
+  }
+
+  p{
+
+    padding: 20px;
+    background:none;
+    text-align: justify
+  }
+  div{
+
+
+    background:none;
+  }
+
+  img{
+    border-radius: 25px;
+  }
+
+
+  .navMenu a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 90PX;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  .navMenu a:hover {
+    color: #ff1d1d;
+  }
+
+  .imglogo{
+    height: 200px;
+    width: 300px;
+
+  }
+
+  .navMenu {
+    display: flex;
+    align-items: center;
+  }

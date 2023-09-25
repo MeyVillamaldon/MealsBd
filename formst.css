@@ -1,0 +1,102 @@
+.imglogo{
+    height: 200px;
+    width: 300px;
+
+  }
+  .navMenu {
+    display: flex;
+    align-items: center;
+  }
+  .navMenu a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 90PX;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  .navMenu a:hover {
+    color: #ff1d1d;
+  }
+.format{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    padding: 25px;
+  }
+input{
+    height: 25px;
+    font-size: 15px;
+    width: 400px;
+  }
+  .commit{
+  width: 400px;
+  height: 100px;
+  }
+  select{
+    width: 300px;
+    height: 25px;
+  }
+  button{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top:50px ;
+  }
+ #gridCheck{
+   position: absolute;
+  }
+.logodre{
+position: absolute;
+left: 60%;
+top: 0;
+ 
+}
+.pos{
+  height: 850px;
+}
+body{
+  margin: 0 auto;
+  width: 800px;;
+}
+    
+
+
+@media (max-width:900px)  { 
+  .format{
+      width: 500px;
+  }
+
+  .logodre{
+visibility: hidden;
+    }
+
+
+
+}
+
+@media (min-width:901px)  { 
+  .format{
+    width: 400px;
+    margin-left: 0;
+}
+
+  .logodre{
+position: absolute;
+}
+
+  .navMenu {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .imglogo{
+    height: 150px;
+    width: 200px;
+  }
+
+
+}

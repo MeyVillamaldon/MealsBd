@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formst.css">
+</head>
+
+<body>
+
+
+    <nav class="navMenu">
+        <img src="img/logo.jpg" alt="logo" class="imglogo">
+        <a href="index.html">Inicio</a>
+        <a href="form.html">contactenos</a>
+    </nav>
+
+
+<form action="" id="registro">
+    <div class="format">
+        <label for="floatingInput">Email</label>
+        <input type="email" class="" id="floatingInput" placeholder="name@example.com">
+        <br>
+        <label for="floatingTextarea">Comentarios</label>
+        <textarea class="commit" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <br>
+        <label for="inputCity" class="form-label">Ciudad</label>
+        <input type="text" class="" id="inputCity">
+        <br>
+        <label for="inputAddress" class="form-label">Dirección</label>
+        <input type="text" class="" id="inputAddress" placeholder="1234 Main St">
+        <br>
+        <label for="inputState" class="form-label">Motivo</label>
+        <select id="inputState" class="form-select">
+            <option selected>Trabaje con nosotros</option>
+            <option selected>Nuevas recetas</option>
+            <option selected>Comentarios</option>
+            <option selected>Proximas fechas de ferias</option>
+        </select>
+        <br>
+        <label for="inputZip" class="form-label" >Número de telefonó</label>
+        <input type="text" class="form-control" id="inputZip" placeholder="593+ 99999999">
+        <br>
+        <div class="suscribir">
+            <input type="checkbox" id="gridCheck">
+            <label id="gridCheck" for="">Suscribirse</label>
+        </div>
+        <button type="button" onclick="captura()">Enviar</button>
+    </div>
+</form>
+
+<script>
+
+function captura(){
+
+alert("Gracias por contactarnos");
+registro.reset(); 
+return false;
+}
+
+</script>
+
+<div class="logodre">
+    <img src="img/2.jpg" alt="" class="pos">
+</div>
+
+
+</body>
+
+</html>

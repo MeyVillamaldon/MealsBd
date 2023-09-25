@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<table>
+    <thead>
+        <tr>
+            <th>titulo</th>
+        </tr>
+    </thead>
+    <tbody id="data">
+
+    </tbody>
+</table>
+
+
+<script>
+    //capturar datos 
+let url= 'https://www.themealdb.com/api/json/v1/1/search.php?s='
+fetch(url)
+.then(Response => Response.json())
+.then(data => mostrarData(data)) //console.log(data) para verif q en consola me muestren los items
+//.then(data => console.log(data))//para verif q en consola me muestren los items
+//.catch(error => console.error(error) )
+//traer datos y mostrar 
+
+const mostrarData =(data) => {
+console.log(data);
+let body=''
+for (let i = 0; i < data.length; i++) {
+    body+= `<tr><td>${data[i].title}</td></tr>`
+        
+}
+document.getElementById('data').innerHTML = body
+}
+
+</script>
+</body>
+</html>
